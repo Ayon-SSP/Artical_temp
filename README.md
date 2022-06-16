@@ -1,15 +1,24 @@
+# Multiple Decorators in Python
 
-Multiple Decoraters to a single function is called chaning of decoraters
+
+
+In simple terms if a function has multiple decoraters to a single function we call it as chaning of decoraters.
+code structure
 ```
-@make_Borders
-@make_Style
-def DisplayName():
-    return Str
+@Dec_1
+@Dec_2
+@Dec_3
+@Dec_4
+.
+.
+.
+def A_funk():
+
 ```
 
 
 
-Let's understand 
+Let's understand Chaning of Decoraters using code
 
 ```
 def Borders(funk):
@@ -45,4 +54,8 @@ Output: -
 |<-TutorialsPoint->|
 ```
 
-In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | "
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | " 
+
+
+
+
