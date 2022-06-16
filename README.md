@@ -56,8 +56,8 @@ Output: -
 ```
 We can also use
 ```
-# GG = Borders(Style(DisplayName))
-# GG()
+GG = Borders(Style(DisplayName))
+GG()
 ```
 
 
