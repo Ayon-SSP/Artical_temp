@@ -1,6 +1,7 @@
 # Multiple Decorators in Python
 
-In simple terms, if a function has multiple decorators we call it as chain of function decorators.
+In simple terms, if a function has multiple decorators we call it as chain of function decorators.<br>
+prerequisites Decorators in python
 #### code structure for Multiple Decorators in python
 ```
 @Dec_1
