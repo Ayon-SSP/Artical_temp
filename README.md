@@ -64,7 +64,6 @@ In this above code we can understand that how Multiple Decoraters are helping to
 
 
 let's the base function be DisplayName()
-
 step 1:
 First the base function wil pass as an argument to add_Style function and the text changest "TutorialsPoint" to "<-TutorialsPoint->"
 
