@@ -1,5 +1,5 @@
 
-
+Multiple Decoraters to a single function is called chaning of decoraters
 ```
 @make_Borders
 @make_Style
@@ -45,4 +45,4 @@ Output: -
 |<-TutorialsPoint->|
 ```
 
-In this above code we can understand that how Decoraters are changing the functi
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality 
