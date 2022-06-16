@@ -1,9 +1,7 @@
 # Multiple Decorators in Python
 
-
-
 In simple terms if a function has multiple decoraters to a single function we call it as chaning of decoraters.
-code structure
+#### code structure
 ```
 @Dec_1
 @Dec_2
