@@ -19,7 +19,7 @@ A_funk()
 ```
 
 #### Let's understand Chaning of Decorators with an example :
-With two decorators<br>
+**With two decorators**<br>
 @add_Borders<br>
 @add_Style<br>
 ```
