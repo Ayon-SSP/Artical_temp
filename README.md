@@ -10,8 +10,11 @@ In simple terms if a function has multiple decoraters to a single function we ca
 .
 .
 .
-def A_funk():
 
+def A_funk():
+    # functionality
+    return If_Needed_to_return
+A_funk()
 ```
 
 
