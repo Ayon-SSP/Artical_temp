@@ -1,5 +1,10 @@
+
+
 ```
-@
+@make_Borders
+@make_Style
+def DisplayName():
+    return Str
 ```
 
 
@@ -40,4 +45,4 @@ Output: -
 |<-TutorialsPoint->|
 ```
 
-In this code 
+In this above code we can understand that how Decoraters are changing the functi
