@@ -1,6 +1,6 @@
 # Multiple Decorators in Python
 
-In simple terms if a function has multiple decoraters to a single function we call it as chaning of decoraters.
+In simple terms if a function has multiple decoraters we call it as chaning of decoraters or Multiple Decorators.
 #### code structure for Multiple Decorators in python
 ```
 @Dec_1
@@ -55,7 +55,7 @@ Output: -
 |<-TutorialsPoint->|
 ```
 
-In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | " 
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | " & if need we can more additional functionality.
 
 
 
