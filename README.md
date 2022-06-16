@@ -60,8 +60,6 @@ GG = add_Borders(add_Style(DisplayName))
 GG()
 ```
 
-In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding add_style  "<- plaintext ->" and then adding add_Borders " | plaintext | " & if need we can add more additional functionality to DisplayName() function.
-
 
 let's the base function be DisplayName()
 step 1:
@@ -71,3 +69,5 @@ step 2:
 Then the add_Style function will pass as an argument to add_Borders function and the text changest "<-TutorialsPoint->" to "|<-TutorialsPoint->|"
 
 last step: it will print "|<-TutorialsPoint->|"
+
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding add_style  "<- plaintext ->" and then adding add_Borders " | plaintext | " & if need we can add more additional functionality to DisplayName() function.
