@@ -12,7 +12,6 @@
 
 
 ```
-# |<-TutorialPoint->|
 def Borders(funk):
     # This function will take Style function as an argument
     # Style -> funk
