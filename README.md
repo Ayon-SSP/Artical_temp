@@ -22,15 +22,15 @@ A_funk()
 Let's understand Chaning of Decoraters using code
 
 ```
-def Borders(funk):
-    # This function will take Style function as an argument
-    # Style -> funk
+def add_Borders(funk):
+    # This function will take add_Style function as an argument
+    # add_Style -> funk
     def inner():
         print("|",end="")
         funk()
         print("|",end="")
     return inner
-def Style(funk):
+def add_Style(funk):
     # This function will take DisplayName function as an argument
     #  DisplayName -> funk
 
@@ -39,13 +39,13 @@ def Style(funk):
         funk()
         print("->",end="")
     return inner
-@Borders
-@Style
+@add_Borders
+@add_Style
 def DisplayName():
     # function which will display "TutorialsPoint"
     print("TutorialsPoint",end="")
 
-# GG = Borders(Style(DisplayName))
+# GG = add_Borders(add_Style(DisplayName))
 # GG()
 
 DisplayName()
@@ -54,15 +54,16 @@ Output: -
 ```
 |<-TutorialsPoint->|
 ```
-We can also use
-```
-GG = Borders(Style(DisplayName))
+We can also use:
+```GG = add_Borders(add_Style(DisplayName))
 GG()
 ```
 
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding add_style  "<- plaintext ->" and then adding add_Borders " | plaintext | " & if need we can add more additional functionality to DisplayName() function.
 
-
-In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | " & if need we can add more additional functionality to DisplayName() function.
-
-
+let's the base function be DisplayName()
+step 1:
+    First the base function wil pass as an argument to add_Style function and the text changest "TutorialsPoint" to "<-TutorialsPoint->"
+step 2:
+    Then the add_Style function will pass as an argument to add_Borders function and the text changest "<-TutorialsPoint->" to "|<-TutorialsPoint->|"
 
