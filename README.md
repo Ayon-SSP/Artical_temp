@@ -45,4 +45,4 @@ Output: -
 |<-TutorialsPoint->|
 ```
 
-In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  (<- __ ->) and then adding Borders (| __ |)
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders "| plaintext |"
