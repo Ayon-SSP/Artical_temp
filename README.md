@@ -55,8 +55,14 @@ Output: -
 |<-TutorialsPoint->|
 ```
 
-In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | " & if need we can more additional functionality.
+```
+# GG = Borders(Style(DisplayName))
+# GG()
+```
 
+
+
+In this above code we can understand that how Multiple Decoraters are helping to change the functionality of a DisplayName() function twice first it's adding style  "<- plaintext ->" and then adding Borders " | plaintext | " & if need we can add more additional functionality to DisplayName() function.
 
 
 
