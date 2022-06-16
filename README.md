@@ -33,7 +33,7 @@ def add_Borders(funk):
     return inner
 def add_Style(funk):
     # This function will take DisplayName function as an argument
-    #  DisplayName -> funk
+    # DisplayName -> funk
 
     def inner():
         print("<-",end="")
