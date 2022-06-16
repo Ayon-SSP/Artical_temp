@@ -55,7 +55,8 @@ Output: -
 |<-TutorialsPoint->|
 ```
 We can also use:
-```GG = add_Borders(add_Style(DisplayName))
+```
+GG = add_Borders(add_Style(DisplayName))
 GG()
 ```
 
