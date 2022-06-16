@@ -19,7 +19,9 @@ A_funk()
 ```
 
 #### Let's understand Chaning of Decorators with an example :
-
+With two decorators<br>
+@add_Borders<br>
+@add_Style<br>
 ```
 def add_Borders(funk):
     # This function will take add_Style function as an argument
