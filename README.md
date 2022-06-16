@@ -61,13 +61,11 @@ GG()
 ```
 
 
-let's the base function be DisplayName()
+let's the base function be DisplayName()<br><br>
 **step 1:**
-First the base function wil pass as an argument to add_Style function and the text changest "TutorialsPoint" to "<-TutorialsPoint->"
-
+First the base function wil pass as an argument to add_Style function and the text changest "TutorialsPoint" to "<-TutorialsPoint->"<br>
 **step 2:**
-Then the add_Style function will pass as an argument to add_Borders function and the text changest "<-TutorialsPoint->" to "|<-TutorialsPoint->|"
-
+Then the add_Style function will pass as an argument to add_Borders function and the text changest "<-TutorialsPoint->" to "|<-TutorialsPoint->|"<br>
 **last step:** 
 it will print "|<-TutorialsPoint->|"
 
