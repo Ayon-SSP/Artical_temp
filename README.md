@@ -1,6 +1,6 @@
 # Multiple Decorators in Python
 
-##### Before going to Multiple Decorators let’s first understand what is 
+##### Before going to Multiple Decorators let’s first understand what is Decorators
 
 ## Decorators in Python
 
@@ -13,7 +13,6 @@ def A_funk():
     # functionality
     return If_Needed_to_return
 A_funk()
-
 ```
 
 ### Code explanation :-
@@ -53,7 +52,7 @@ def DisplayName():
 DisplayName()
 ```
 
-
+**Output :-**
 ```
 <-TutorialsPoint->
 ```
@@ -92,7 +91,10 @@ funk1()
 funk2()
 funk3()
 ```
-
+**Output :-**
+```
+<-TutorialsPoint->
+```
 In the above code, you can see that we are repeating the code in every function to calculate the time taken by a function.
 
 To reduce the repetitive task we use Decorators.
