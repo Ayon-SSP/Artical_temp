@@ -34,7 +34,7 @@ def add_Borders(funk):
     return inner
 def add_Style(funk):
     # This function will take DisplayName function as an argument
-    #  DisplayName -> funk
+    # DisplayName -> funk
 
     def inner():
         print("<-",end="")
@@ -80,7 +80,7 @@ def DisplayName():
 print(DisplayName())
 ```
 **Explanation :** <br><br>
-The Decorator execution order is from bottom to top for example @add_Style to @add_Borders<br>
+The Decorator execution order is from bottom to top for example in our case @add_Style to @add_Borders<br>
 let's the base function be DisplayName()<br><br>
 **step 1:**
 First the base function will pass as an argument to the add_Style function and the text changest "TutorialsPoint" to "<-TutorialsPoint->"<br>
