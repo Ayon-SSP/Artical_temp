@@ -91,7 +91,10 @@ funk1()
 funk2()
 funk3()
 ```
-
+**Output :-**
+```
+<-TutorialsPoint->
+```
 In the above code, you can see that we are repeating the code in every function to calculate the time taken by a function.
 
 To reduce the repetitive task we use Decorators.
