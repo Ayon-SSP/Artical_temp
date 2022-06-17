@@ -1,6 +1,7 @@
 # Multiple Decorators in Python
 
 In simple terms, If a function has multiple decorators we call it as chain of function decorators.<br>
+
 **Prerequisites Decorators in python**
 #### code structure for Multiple Decorators in python
 ```
@@ -89,3 +90,8 @@ Then the add_Style function will pass as an argument to add_Borders function and
 it will print "|<-TutorialsPoint->|"
 
 In this above code we can understand that how Multiple Decorators are helping to change the functionality of a DisplayName() function twice first it's adding add_style  "<- plaintext ->" and then adding add_Borders " | plaintext | " & if needed we can add more additional functionality to DisplayName() function.
+
+
+
+
+There is a builtin standard library called inspect module in Python where we can use getsource() method to display the source code of any python object 
