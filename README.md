@@ -18,16 +18,16 @@ A_funk()
 
 ### Code explanation :-
 ```
-def Add_Style(funk):                   # step 2  funk -> DisplayName
-    def inner():                              # step 4
-        print("<-",end="")                 #step 5
-        funk()                                   #step 6 call to funk() -> displayName() function
-        print("->",end="")                 #step 9
-    return inner                             # step 3 inner function will call
+def Add_Style(funk):                  # step 2  funk -> DisplayName
+    def inner():                      # step 4
+        print("<-",end="")            #step 5
+        funk()                        #step 6 call to funk() -> displayName() function
+        print("->",end="")            #step 9
+    return inner                      # step 3 inner function will call
 
 
 def DisplayName():           # step 7
-    print("TutorialsPoint",end="")    # step 8
+    print("TutorialsPoint",end="")   # step 8
 
 gg = Add_Style(DisplayName)    # step 1: Add_Style function will take DisplayName function as an argument
 gg() 
