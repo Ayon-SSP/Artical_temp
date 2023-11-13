@@ -1,6 +1,6 @@
 # Multiple Decorators in Python
 
-##### Before going to Multiple Decorators let’s first understand what is Decorators
+> Before going to Multiple Decorators let’s first understand what is Decorators
 
 ## Decorators in Python
 
